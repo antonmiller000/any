@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Energy — The Space Connection Project</title>
+<meta name="description" content="Where does energy begin? An interactive chain from the Sun to Space." />
+<meta name="theme-color" content="#05070c" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+<header class="site-nav" id="siteNav">
+  <a class="site-nav__mark" href="../"><strong>SCP</strong> &middot; The Space Connection Project</a>
+  <ul class="site-nav__links">
+    <li><a href="../the-project/">The Project</a></li>
+    <li><a href="../the-sun/">The Sun</a></li>
+    <li><a href="../the-field/">The Field</a></li>
+    <li><a href="../experiences/">Experiences</a></li>
+    <li><a href="../field-journal/">Field Journal</a></li>
+    <li><a href="../cosmic-mentors/">Cosmic Mentors</a></li>
+    <li><a href="../collaborations/">Collaborations</a></li>
+    <li><a href="../manifesto/">Manifesto</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</header>
+<main>
+  <section class="band" id="energy" aria-labelledby="energy-title">
+    <div class="container">
+      <div class="band__head reveal" style="text-align:center;align-items:center;">
+        <span class="obs-tag">Obs. 02</span>
+        <h2 class="band__title" id="energy-title">Where does energy begin?</h2>
+        <p style="max-width:30rem;color:var(--solar-dim);">Select a point in the chain.</p>
+      </div>
+
+      <div class="chain reveal" id="energyChain">
+        <div class="chain__particle" aria-hidden="true"></div>
+
+        <div class="node" data-text="Radiance without intention.">
+          <button class="node__btn" type="button" aria-expanded="false">
+            <span class="node__dot" aria-hidden="true"></span>
+            <span class="node__label">Sun</span>
+            <span class="node__arrow" aria-hidden="true">›</span>
+          </button>
+          <div class="node__panel"><div class="node__panel-inner"><p class="node__text"></p></div></div>
+        </div>
+
+        <div class="node" data-text="Movement beneath our feet.">
+          <button class="node__btn" type="button" aria-expanded="false">
+            <span class="node__dot" aria-hidden="true"></span>
+            <span class="node__label">Earth</span>
+            <span class="node__arrow" aria-hidden="true">›</span>
+          </button>
+          <div class="node__panel"><div class="node__panel-inner"><p class="node__text"></p></div></div>
+        </div>
+
+        <div class="node" data-text="Millions of exchanges happening beyond our perception.">
+          <button class="node__btn" type="button" aria-expanded="false">
+            <span class="node__dot" aria-hidden="true"></span>
+            <span class="node__label">Forest</span>
+            <span class="node__arrow" aria-hidden="true">›</span>
+          </button>
+          <div class="node__panel"><div class="node__panel-inner"><p class="node__text"></p></div></div>
+        </div>
+
+        <div class="node" data-text="A conscious observer inside the system.">
+          <button class="node__btn" type="button" aria-expanded="false">
+            <span class="node__dot" aria-hidden="true"></span>
+            <span class="node__label">Human</span>
+            <span class="node__arrow" aria-hidden="true">›</span>
+          </button>
+          <div class="node__panel"><div class="node__panel-inner"><p class="node__text"></p></div></div>
+        </div>
+
+        <div class="node" data-text="The moment two systems recognize each other.">
+          <button class="node__btn" type="button" aria-expanded="false">
+            <span class="node__dot" aria-hidden="true"></span>
+            <span class="node__label">Connection</span>
+            <span class="node__arrow" aria-hidden="true">›</span>
+          </button>
+          <div class="node__panel"><div class="node__panel-inner"><p class="node__text"></p></div></div>
+        </div>
+
+        <div class="node" data-text="The field in which everything happens.">
+          <button class="node__btn" type="button" aria-expanded="false">
+            <span class="node__dot" aria-hidden="true"></span>
+            <span class="node__label">Space</span>
+            <span class="node__arrow" aria-hidden="true">›</span>
+          </button>
+          <div class="node__panel"><div class="node__panel-inner"><p class="node__text"></p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<nav class="page-nav" aria-label="Page">
+  <a class="page-nav__link page-nav__link--prev" href="../the-sun/">
+    <span class="page-nav__eyebrow">&larr; Previous</span>
+    <span class="page-nav__title">The Sun</span>
+  </a>
+  <a class="page-nav__link page-nav__link--next" href="../the-field/">
+    <span class="page-nav__eyebrow">Next &rarr;</span>
+    <span class="page-nav__title">The Field</span>
+  </a>
+</nav>
+</main>
+<footer class="site-footer" id="contact">
+  <div class="container container--wide">
+    <div class="site-footer__top">
+      <div>
+        <h2 class="site-footer__title">The Space Connection Project</h2>
+        <p class="site-footer__tagline">An exploration of energy, consciousness, place and connection.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="site-footer__nav">
+    <li><a href="../the-project/">The Project</a></li>
+    <li><a href="../the-sun/">The Sun</a></li>
+    <li><a href="../the-field/">The Field</a></li>
+    <li><a href="../experiences/">Experiences</a></li>
+    <li><a href="../field-journal/">Field Journal</a></li>
+    <li><a href="../cosmic-mentors/">Cosmic Mentors</a></li>
+    <li><a href="../collaborations/">Collaborations</a></li>
+    <li><a href="../manifesto/">Manifesto</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+      </nav>
+    </div>
+    <p id="contact-text">Inquiries are read carefully and answered selectively. If your place, community or work carries something worth noticing, describe it plainly and it will find its way to us.</p>
+    <div class="site-footer__bottom">
+      <span>&copy; 2026 The Space Connection Project</span>
+      <span>Field access by invitation</span>
+    </div>
+  </div>
+</footer>
+<script src="../assets/site.js"></script>
+</body>
+</html>
