@@ -903,6 +903,31 @@
     color:rgba(245,237,224,.3);
     text-transform:uppercase;
   }
+  .footer-meta-link{color:rgba(245,237,224,.3);text-decoration:underline;text-decoration-color:rgba(201,168,106,.3);text-underline-offset:.2em;transition:color .3s var(--ease);}
+  .footer-meta-link:hover{color:var(--gold);}
+
+  /* ---------------- 404 ---------------- */
+  .notfound{
+    min-height:70svh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:6rem 1.5rem;
+  }
+  .notfound__inner{max-width:28rem;}
+  .notfound__code{
+    font-family:var(--mono);
+    font-size:.8rem;
+    letter-spacing:.2em;
+    color:var(--gold-dim);
+  }
+  .notfound__title{margin:1rem 0 1.2rem;text-transform:uppercase;}
+  .notfound__text{color:var(--solar-dim);margin-bottom:2rem;}
+
+  /* ---------------- SITE NOTES ---------------- */
+  .notes p{margin-bottom:1.3rem;color:var(--solar-dim);}
+  .notes p:last-child{margin-bottom:0;}
 
   @media (max-width:640px){
     .band{padding:5rem 0;}
